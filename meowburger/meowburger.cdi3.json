@@ -1,0 +1,229 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "각도 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "각도 Y"
+		},
+		{
+			"Id": "ParamZ",
+			"GroupId": "",
+			"Name": "위치 Z"
+		},
+		{
+			"Id": "ParamAngleZY",
+			"GroupId": "",
+			"Name": "zy"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "왼쪽 눈 깜빡임"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "오른쪽 눈 깜빡임"
+		},
+		{
+			"Id": "ParamMeow",
+			"GroupId": "",
+			"Name": "meow"
+		},
+		{
+			"Id": "ParamTongueX",
+			"GroupId": "",
+			"Name": "tongue x"
+		},
+		{
+			"Id": "ParamBodyY",
+			"GroupId": "",
+			"Name": "body Y"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "눈 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "눈 Y"
+		},
+		{
+			"Id": "ParamEarRightX",
+			"GroupId": "ParamGroup7",
+			"Name": "ear R x"
+		},
+		{
+			"Id": "ParamEarRightY",
+			"GroupId": "ParamGroup7",
+			"Name": "ear R y"
+		},
+		{
+			"Id": "ParamEarLeftX",
+			"GroupId": "ParamGroup7",
+			"Name": "ear L x"
+		},
+		{
+			"Id": "ParamEarLeftY",
+			"GroupId": "ParamGroup7",
+			"Name": "ear L y"
+		},
+		{
+			"Id": "ParamWristSway",
+			"GroupId": "ParamGroup6",
+			"Name": "wrist sway"
+		},
+		{
+			"Id": "ParamWristAngle",
+			"GroupId": "ParamGroup6",
+			"Name": "wrist"
+		},
+		{
+			"Id": "ParamArmAngle",
+			"GroupId": "ParamGroup6",
+			"Name": "arm"
+		},
+		{
+			"Id": "ParamShoulderMove",
+			"GroupId": "ParamGroup6",
+			"Name": "shoulder"
+		},
+		{
+			"Id": "ParamAhogeSwayX",
+			"GroupId": "ParamGroup3",
+			"Name": "ahoge sway x"
+		},
+		{
+			"Id": "ParamAhogeSwayY",
+			"GroupId": "ParamGroup3",
+			"Name": "ahoge sway y"
+		},
+		{
+			"Id": "Param0HairFront",
+			"GroupId": "ParamGroup2",
+			"Name": "[0]hair F"
+		},
+		{
+			"Id": "Param1HairFront",
+			"GroupId": "ParamGroup2",
+			"Name": "[1]hair F"
+		},
+		{
+			"Id": "ParamHairRightSway0",
+			"GroupId": "ParamGroup",
+			"Name": "[0]hair R"
+		},
+		{
+			"Id": "ParamHairRightSway1",
+			"GroupId": "ParamGroup",
+			"Name": "[1]hair R"
+		},
+		{
+			"Id": "ParamHairLeftSway",
+			"GroupId": "ParamGroup5",
+			"Name": "[0]hair L"
+		},
+		{
+			"Id": "ParamHairRightBackSway0",
+			"GroupId": "ParamGroup4",
+			"Name": "[0]hair R B"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup7",
+			"GroupId": "",
+			"Name": "ear"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "arm"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "ahoge"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "hair F"
+		},
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "hair R"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "haair L"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "hair R B"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "buger + ear"
+		},
+		{
+			"Id": "Part2",
+			"Name": "eye L"
+		},
+		{
+			"Id": "Part3",
+			"Name": "eye R"
+		},
+		{
+			"Id": "mouth",
+			"Name": "mouth"
+		},
+		{
+			"Id": "head",
+			"Name": "head"
+		},
+		{
+			"Id": "body",
+			"Name": "body"
+		},
+		{
+			"Id": "Part4",
+			"Name": "hair back"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		],
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamEarRightX",
+			"ParamEarRightY"
+		],
+		[
+			"ParamEarLeftX",
+			"ParamEarLeftY"
+		],
+		[
+			"ParamAhogeSwayX",
+			"ParamAhogeSwayY"
+		]
+	]
+}

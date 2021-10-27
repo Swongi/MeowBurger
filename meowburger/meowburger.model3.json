@@ -1,0 +1,53 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "meowburger.moc3",
+		"Textures": [
+			"meowburger.2048/texture_00.png"
+		],
+		"Physics": "meowburger.physics3.json",
+		"DisplayInfo": "meowburger.cdi3.json",
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/idle-breathe.motion3.json"
+        }
+      ],
+	  "TapFace": [
+        {
+          "File": "motions/meow.motion3.json"
+        }
+	],
+      "TapBody": [
+        {
+          "File": "motions/peropero.motion3.json"
+        }
+	]
+}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": "Body"
+		},
+		{
+			"Id": "HitArea2",
+			"Name": "Face"
+		}
+	]
+}
